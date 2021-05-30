@@ -102,7 +102,7 @@ function lvim.load_syntax()
         PmenuThumb = {fg = lvim.color_9, bg = lvim.color_4},
         WildMenu = {fg = lvim.fg, bg = lvim.color_5},
         Question = {fg = lvim.color_3},
-        NormalFloat = {fg = lvim.bg_visual, bg = lvim.none},
+        NormalFloat = {fg = lvim.bg_visual, bg = lvim.base2},
         Tabline = {fg = lvim.fg, bg = lvim.none},
         TabLineFill = {style = lvim.none},
         TabLineSel = {fg = lvim.bg1, bg = lvim.none},
@@ -203,6 +203,14 @@ function lvim.load_plugin_syntax()
         gitcommitArrow = {fg = lvim.color_12},
         gitcommitFile = {fg = lvim.color_6},
 
+        NeogitBranch = {fg = lvim.color_3},
+        NeogitRemote = {fg = lvim.color_3},
+        NeogitHunkHeader = {fg = lvim.color_0, bg = lvim.base2},
+        NeogitHunkHeaderHighlight = {fg = lvim.color_0, bg = lvim.base2},
+        NeogitDiffContextHighlight = {fg = lvim.color_9, bg = lvim.base2},
+        NeogitDiffDeleteHighlight = {fg = lvim.color_10},
+        NeogitDiffAddHighlight = {fg = lvim.color_12},
+
         VistaBracket = {fg = lvim.color_12},
         VistaChildrenNr = {fg = lvim.color_8},
         VistaKind = {fg = lvim.color_9},
@@ -270,6 +278,7 @@ function lvim.load_plugin_syntax()
         NvimTreeLspDiagnosticsWarning = {fg = lvim.color_9},
         NvimTreeLspDiagnosticsInformation = {fg = lvim.color_6},
         NvimTreeLspDiagnosticsHint = {fg = lvim.color_9},
+        NvimTreeWindowPicker = { gui = "bold", fg = lvim.color_0, bg = lvim.color_13 },
 
         TelescopeBorder = {fg = lvim.color_11},
         TelescopePromptBorder = {fg = lvim.color_3},
